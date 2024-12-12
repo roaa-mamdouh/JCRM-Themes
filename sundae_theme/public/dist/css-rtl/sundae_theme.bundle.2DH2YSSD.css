@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-25273-4qTOO8xe5l9w/1939247789e0/cotton_candy.bundle.css */
+/* ../../../../../tmp/tmp-22420-Ax4N12T2vk2p/193babd8fa7129/cotton_candy.bundle.css */
 [data-theme=cotton_candy] {
   --gray-50: #E8F5FE;
   --gray-100: #D0E7FA;
@@ -162,7 +162,7 @@
   --indicator-dot-cyan: var(--bg-cyan);
 }
 
-/* ../../../../../tmp/tmp-25273-4qTOO8xe5l9w/193924779c6d/cherry.bundle.css */
+/* ../../../../../tmp/tmp-22420-Ax4N12T2vk2p/193babd9072131/cherry.bundle.css */
 [data-theme=cherry] {
   --pink-50: #fff1f2;
   --pink-100: #ffe4e6;
@@ -341,7 +341,7 @@
   color: var(--pink-800);
 }
 
-/* ../../../../../tmp/tmp-25273-4qTOO8xe5l9w/19392477afe12/apricot.bundle.css */
+/* ../../../../../tmp/tmp-22420-Ax4N12T2vk2p/193babd90ad135/apricot.bundle.css */
 [data-theme=apricot] *::-webkit-scrollbar {
   width: 6px;
 }
@@ -564,12 +564,13 @@
   background-color: #f4f4f4;
 }
 
-/* ../../../../../tmp/tmp-25273-4qTOO8xe5l9w/19392477c1b16/watermelon.bundle.css */
+/* ../../../../../tmp/tmp-22420-Ax4N12T2vk2p/193babd90d8139/watermelon.bundle.css */
 :root {
-  --main-color: #691551;
-  --second-color: #af3d8f;
-  --third-color: #a5488a;
-  --widget-bg: #e8eafcad ;
+  --main-color: #005CA3;
+  --second-color: #BBDEFB;
+  --third-color: #1976D2;
+  --widget-bg: #FFFFFF;
+  --shadow-color: rgba(0, 0, 0, 0.1);
 }
 [data-theme=watermelon] {
   --primary: var(--main-color);
@@ -578,31 +579,18 @@
   --blue-avatar-color: var(--main-color);
   --blue: var(--main-color);
 }
-[data-theme=watermelon] .page-container,
-[data-theme=watermelon] .layout-main-section {
-  background-color: var(--widget-bg);
-}
-[data-theme=watermelon] ul li a:hover {
-  background-color: var(--second-color);
-  color: #fff;
-}
 [data-theme=watermelon] body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   background-color: #f8f8f8;
 }
 [data-theme=watermelon] a {
-  color: #666;
+  color: var(--third-color);
   font-weight: 500;
+  transition: color 0.2s ease;
 }
-[data-theme=watermelon] .small,
-small {
-  font-size: 95%;
-}
-[data-theme=watermelon] .h6.uppercase,
-h6.uppercase {
-  font-weight: 600;
-  font-size: 11.5px;
+[data-theme=watermelon] a:hover {
+  color: var(--main-color);
 }
 [data-theme=watermelon] .standard-sidebar-item.selected {
   background: linear-gradient(to right, var(--main-color), var(--second-color));
@@ -610,36 +598,25 @@ h6.uppercase {
 [data-theme=watermelon] .standard-sidebar-item.selected a {
   color: #fff;
 }
-[data-theme=watermelon] .standard-sidebar-item.selected a svg {
-  fill: #fff;
-}
 [data-theme=watermelon] .standard-sidebar-item:hover {
   background-color: var(--second-color);
   transition: background-color 0.2s ease;
 }
-[data-theme=watermelon] .standard-sidebar-item:hover a,
-[data-theme=watermelon] .standard-sidebar-item:hover svg {
-  color: #fff;
-  fill: #fff;
-}
 [data-theme=watermelon] .navbar {
   background: linear-gradient(to right, var(--main-color), var(--second-color)) !important;
   border: none !important;
+  box-shadow: 0 2px 5px var(--shadow-color);
 }
 [data-theme=watermelon] .navbar-nav > li > a {
   color: #fff !important;
-}
-[data-theme=watermelon] .navbar-nav > li > a:hover {
-  color: #ddd !important;
-}
-[data-theme=watermelon] .navbar-brand:hover {
-  color: #ddd !important;
+  font-weight: 600;
 }
 [data-theme=watermelon] .widget {
   background-color: var(--widget-bg);
   border: none;
-  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 8px var(--shadow-color);
   padding: 20px;
+  border-radius: 8px;
 }
 [data-theme=watermelon] .widget.shortcut-widget-box .widget-head .widget-title i {
   color: var(--third-color);
@@ -795,9 +772,9 @@ h6.uppercase {
   background: var(--widget-bg);
 }
 
-/* ../../../../../tmp/tmp-25273-4qTOO8xe5l9w/sundae_theme/sundae_theme/public/css/sundae_theme.bundle.css */
+/* ../../../../../tmp/tmp-22420-Ax4N12T2vk2p/sundae_theme/sundae_theme/public/css/sundae_theme.bundle.css */
 .app-logo {
   min-height: 55px !important;
   width: auto !important;
 }
-/*# sourceMappingURL=sundae_theme.bundle.IR4IFSAQ.css.map */
+/*# sourceMappingURL=sundae_theme.bundle.2DH2YSSD.css.map */
