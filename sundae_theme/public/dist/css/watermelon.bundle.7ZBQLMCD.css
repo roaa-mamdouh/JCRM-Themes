@@ -1,47 +1,39 @@
-
+/* ../../../../../tmp/tmp-137647-c4HFGOCW9BLZ/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
 :root {
-  /* Modern Color System with Enhanced Accessibility */
-  --main-color: #BBDEFB;        /* Rich vibrant blue - better contrast */
-  --second-color: #60A5FA;      /* Modern electric blue */
-  --third-color: #1E40AF;       /* Deep royal blue */
-  --accent-color: #38BDF8;      /* Bright sky blue */
-  --text-primary: #111827;      /* Near black for better readability */
-  --text-secondary: #374151;    /* Darker secondary text */
-
-  /* Refined Neutral System */
+  --main-color: #BBDEFB;
+  --second-color: #60A5FA;
+  --third-color: #1E40AF;
+  --accent-color: #38BDF8;
+  --text-primary: #111827;
+  --text-secondary: #374151;
   --neutral-100: #F8FAFC;
   --neutral-200: #E2E8F0;
   --neutral-300: #CBD5E1;
   --neutral-400: #94A3B8;
   --neutral-600: #475569;
   --neutral-800: #0F172A;
-
-  /* Advanced Glassmorphism 2.0 */
   --glass-bg: rgba(255, 255, 255, 0.9);
   --glass-border: rgba(255, 255, 255, 0.65);
   --glass-shadow: rgba(37, 99, 235, 0.15);
-
-  /* Modern Font Stack */
-  --font-primary: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
-
-  /* Enhanced Shadow System with Colored Shadows */
+  --font-primary:
+    "Plus Jakarta Sans",
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
   --shadow-subtle: 0 2px 4px rgba(37, 99, 235, 0.06);
   --shadow-light: 0 4px 6px rgba(37, 99, 235, 0.1);
   --shadow-medium: 0 8px 15px rgba(37, 99, 235, 0.12);
   --shadow-heavy: 0 15px 30px rgba(37, 99, 235, 0.15);
-
-  /* Smooth Animation Curves */
   --transition-standard: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-bounce: all 0.5s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
-
-[data-theme="watermelon"] {
+[data-theme=watermelon] {
   color-scheme: light dark;
   scroll-behavior: smooth;
   accent-color: var(--main-color);
 }
-
-[data-theme="watermelon"] body {
+[data-theme=watermelon] body {
   font-family: var(--font-primary);
   font-size: 15px;
   line-height: 1.7;
@@ -51,18 +43,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/* Modern Interactive Elements */
-[data-theme="watermelon"] a {
+[data-theme=watermelon] a {
   color: var(--third-color);
   text-decoration: none;
   transition: var(--transition-standard);
   position: relative;
   overflow: hidden;
 }
-
-[data-theme="watermelon"] a::after {
-  content: '';
+[data-theme=watermelon] a::after {
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -72,27 +61,19 @@
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
-
-[data-theme="watermelon"] a:hover::after {
+[data-theme=watermelon] a:hover::after {
   transform: scaleX(1);
 }
-
-/* Modern Navigation */
-[data-theme="watermelon"] .navbar {
-  background: linear-gradient(45deg, 
-    var(--main-color) 0%,
-    var(--second-color) 25%,
-    var(--third-color) 50%,
-    var(--accent-color) 75%,
-    var(--main-color) 100%);
+[data-theme=watermelon] .navbar {
+  background: linear-gradient(45deg, var(--main-color) 0%, var(--second-color) 25%, var(--third-color) 50%, var(--accent-color) 75%, var(--main-color) 100%);
   background-size: 200% 200%;
   animation: gradientFlow 15s ease infinite;
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding: 1rem 2rem;
   box-shadow: var(--shadow-medium);
 }
-
 @keyframes gradientFlow {
   0% {
     background-position: 0% 50%;
@@ -104,17 +85,15 @@
     background-position: 0% 50%;
   }
 }
-
-[data-theme="watermelon"] .navbar-nav > li > a {
+[data-theme=watermelon] .navbar-nav > li > a {
   color: white;
   font-weight: 600;
   letter-spacing: 0.5px;
   position: relative;
   padding: 0.5rem 1rem;
 }
-
-[data-theme="watermelon"] .navbar-nav > li > a::before {
-  content: '';
+[data-theme=watermelon] .navbar-nav > li > a::before {
+  content: "";
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -124,15 +103,13 @@
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
-
-[data-theme="watermelon"] .navbar-nav > li > a:hover::before {
+[data-theme=watermelon] .navbar-nav > li > a:hover::before {
   transform: scaleX(1);
 }
-
-/* Modern Sidebar */
-[data-theme="watermelon"] .standard-sidebar-item {
+[data-theme=watermelon] .standard-sidebar-item {
   border-radius: 12px;
   background: var(--glass-bg);
+  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
   border: 1px solid var(--glass-border);
   box-shadow: var(--shadow-subtle);
@@ -140,20 +117,16 @@
   margin: 0.5rem 0;
   padding: 0.75rem 1rem;
 }
-
-[data-theme="watermelon"] .standard-sidebar-item.selected {
+[data-theme=watermelon] .standard-sidebar-item.selected {
   background: linear-gradient(135deg, var(--main-color), var(--third-color));
   color: white;
   box-shadow: var(--shadow-medium);
 }
-
-[data-theme="watermelon"] .standard-sidebar-item:hover {
+[data-theme=watermelon] .standard-sidebar-item:hover {
   transform: translateX(8px) scale(1.02);
   box-shadow: var(--shadow-light);
 }
-
-/* Modern Buttons */
-[data-theme="watermelon"] .btn-primary {
+[data-theme=watermelon] .btn-primary {
   background: linear-gradient(135deg, var(--main-color), var(--third-color));
   color: white;
   font-weight: 600;
@@ -162,24 +135,18 @@
   border: none;
   transform-origin: center;
   transition: var(--transition-bounce);
-  box-shadow: var(--shadow-light),
-              0 0 0 0 rgba(37, 99, 235, 0.5);
+  box-shadow: var(--shadow-light), 0 0 0 0 rgba(37, 99, 235, 0.5);
 }
-
-[data-theme="watermelon"] .btn-primary:hover {
+[data-theme=watermelon] .btn-primary:hover {
   transform: translateY(-2px) scale(1.02);
-  box-shadow: var(--shadow-medium),
-              0 0 0 4px rgba(37, 99, 235, 0.15);
+  box-shadow: var(--shadow-medium), 0 0 0 4px rgba(37, 99, 235, 0.15);
 }
-
-[data-theme="watermelon"] .btn-primary:active {
+[data-theme=watermelon] .btn-primary:active {
   transform: translateY(1px) scale(0.98);
 }
-
-/* Modern Form Elements */
-[data-theme="watermelon"] input,
-[data-theme="watermelon"] select,
-[data-theme="watermelon"] textarea {
+[data-theme=watermelon] input,
+[data-theme=watermelon] select,
+[data-theme=watermelon] textarea {
   border: 2px solid var(--neutral-300);
   border-radius: 12px;
   padding: 12px 16px;
@@ -188,19 +155,17 @@
   width: 100%;
   color: var(--text-primary);
 }
-
-[data-theme="watermelon"] input:focus,
-[data-theme="watermelon"] select:focus,
-[data-theme="watermelon"] textarea:focus {
+[data-theme=watermelon] input:focus,
+[data-theme=watermelon] select:focus,
+[data-theme=watermelon] textarea:focus {
   border-color: var(--main-color);
   box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
   transform: translateY(-1px);
   outline: none;
 }
-
-/* Modern Cards */
-[data-theme="watermelon"] .card {
+[data-theme=watermelon] .card {
   background: var(--glass-bg);
+  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
   border: 1px solid var(--glass-border);
   border-radius: 16px;
@@ -209,37 +174,31 @@
   padding: 1.5rem;
   margin: 1rem 0;
 }
-
-[data-theme="watermelon"] .card:hover {
+[data-theme=watermelon] .card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-heavy);
 }
-
-/* Modern Tables */
-[data-theme="watermelon"] table {
+[data-theme=watermelon] table {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
   margin: 1rem 0;
 }
-
-[data-theme="watermelon"] th,
-[data-theme="watermelon"] td {
+[data-theme=watermelon] th,
+[data-theme=watermelon] td {
   padding: 1rem;
   border-bottom: 1px solid var(--neutral-300);
   background: var(--glass-bg);
 }
-
-[data-theme="watermelon"] th {
+[data-theme=watermelon] th {
   background: var(--neutral-200);
   font-weight: 600;
 }
-
-[data-theme="watermelon"] tr:hover td {
+[data-theme=watermelon] tr:hover td {
   background: var(--neutral-100);
 }
-/* Modern Custom Checkboxes */
-[data-theme="watermelon"] input[type="checkbox"] {
+[data-theme=watermelon] input[type=checkbox] {
+  -moz-appearance: none;
   appearance: none;
   -webkit-appearance: none;
   width: 14px;
@@ -252,20 +211,17 @@
   transition: var(--transition-standard);
   margin-right: 6px;
 }
-
-[data-theme="watermelon"] input[type="checkbox"]:hover {
+[data-theme=watermelon] input[type=checkbox]:hover {
   border-color: var(--main-color);
   box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
   transform: scale(1.1);
 }
-
-[data-theme="watermelon"] input[type="checkbox"]:checked {
+[data-theme=watermelon] input[type=checkbox]:checked {
   background: linear-gradient(135deg, var(--main-color), var(--third-color));
   border-color: transparent;
 }
-
-[data-theme="watermelon"] input[type="checkbox"]:checked::before {
-  content: '✓';
+[data-theme=watermelon] input[type=checkbox]:checked::before {
+  content: "\2713";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -274,47 +230,36 @@
   font-size: 10px;
   font-weight: bold;
 }
-
-[data-theme="watermelon"] input[type="checkbox"]:focus {
+[data-theme=watermelon] input[type=checkbox]:focus {
   outline: none;
   border-color: var(--main-color);
   box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
 }
-
-/* Remaining styles stay the same as in the previous artifact */
-/* Responsive Design */
 @media (max-width: 768px) {
   :root {
     --shadow-medium: 0 6px 12px rgba(37, 99, 235, 0.1);
     --shadow-heavy: 0 12px 24px rgba(37, 99, 235, 0.12);
   }
-  
-  [data-theme="watermelon"] body {
+  [data-theme=watermelon] body {
     font-size: 14px;
   }
-  
-  [data-theme="watermelon"] .btn-primary {
+  [data-theme=watermelon] .btn-primary {
     padding: 10px 20px;
   }
-  
-  [data-theme="watermelon"] .card {
+  [data-theme=watermelon] .card {
     padding: 1rem;
   }
-  
-  [data-theme="watermelon"] .navbar {
+  [data-theme=watermelon] .navbar {
     padding: 0.75rem 1rem;
   }
-  
-  [data-theme="watermelon"] input,
-  [data-theme="watermelon"] select,
-  [data-theme="watermelon"] textarea {
+  [data-theme=watermelon] input,
+  [data-theme=watermelon] select,
+  [data-theme=watermelon] textarea {
     padding: 10px 14px;
   }
 }
-
-/* Dark Mode Support */
 @media (prefers-color-scheme: dark) {
-  [data-theme="watermelon"] {
+  [data-theme=watermelon] {
     --text-primary: #F9FAFB;
     --text-secondary: #D1D5DB;
     --neutral-100: #1F2937;
@@ -326,9 +271,8 @@
     --glass-bg: rgba(31, 41, 55, 0.9);
     --glass-border: rgba(55, 65, 81, 0.65);
   }
-  
-  [data-theme="watermelon"] body {
+  [data-theme=watermelon] body {
     background: linear-gradient(145deg, #111827, #1F2937);
   }
 }
-
+/*# sourceMappingURL=watermelon.bundle.7ZBQLMCD.css.map */
