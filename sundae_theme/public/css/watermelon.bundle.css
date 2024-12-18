@@ -30,9 +30,7 @@
   --shadow-medium: 0 8px 15px rgba(37, 99, 235, 0.12);
   --shadow-heavy: 0 15px 30px rgba(37, 99, 235, 0.15);
 
-  /* Smooth Animation Curves */
-  --transition-standard: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-bounce: all 0.5s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
 }
 
 [data-theme="watermelon"] {
@@ -86,7 +84,6 @@
     var(--accent-color) 75%,
     var(--main-color) 100%);
   background-size: 200% 200%;
-  animation: gradientFlow 15s ease infinite;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding: 1rem 2rem;
@@ -139,6 +136,7 @@
   transition: var(--transition-standard);
   margin: 0.5rem 0;
   padding: 0.75rem 1rem;
+  position: relative;
 }
 
 [data-theme="watermelon"] .standard-sidebar-item.selected {
@@ -150,6 +148,7 @@
 [data-theme="watermelon"] .standard-sidebar-item:hover {
   transform: translateX(8px) scale(1.02);
   box-shadow: var(--shadow-light);
+  
 }
 
 /* Modern Buttons */
@@ -173,12 +172,52 @@
 }
 
 [data-theme="watermelon"] .btn-primary:active {
-  transform: translateY(1px) scale(0.98);
+  transform: translateY(10px) scale(0.98);
+}
+[data-theme="watermelon"] .dropdown-list {
+  position: absolute; 
+  bottom: 100%; /* Position above the sidebar menu item */
+  left: 0; 
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-medium);
+  z-index: 10; 
+  min-width: 150px; 
+  padding: 0.5rem 0;
+  transform: translateY(-8px); /* Add a small gap between dropdown and menu item */
 }
 
+[data-theme="watermelon"] .dropdown-list.show {
+    display: block; /* Show the menu when the button is clicked */
+}
 /* Modern Form Elements */
 [data-theme="watermelon"] input,
-[data-theme="watermelon"] select,
+[data-theme="watermelon"] select {
+    border: 2px solid var(--neutral-300);
+    border-radius: 12px;
+    padding: 5px 8px; /* Reduced padding */
+    background: var(--glass-bg);
+    transition: var(--transition-standard);
+    width: 100%;
+    color: var(--text-primary);
+    /* Added box-sizing and adjusted line-height */
+    box-sizing: border-box;
+    line-height: 1.5; /* Adjust as needed */
+    appearance: none; /* removes default arrow in some browsers */
+    -webkit-appearance: none; /* removes default arrow in Safari */
+    -moz-appearance: none; /* removes default arrow in Firefox */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+}
+
+[data-theme="watermelon"] select:focus {
+    border-color: var(--main-color);
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+    transform: translateY(-1px);
+    outline: none;
+}
 [data-theme="watermelon"] textarea {
   border: 2px solid var(--neutral-300);
   border-radius: 12px;

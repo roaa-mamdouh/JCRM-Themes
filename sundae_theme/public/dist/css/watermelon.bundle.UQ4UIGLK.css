@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-137647-9L4oXjSzNlF8/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
+/* ../../../../../tmp/tmp-217800-XHGfQIQRDdNi/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
 :root {
   --main-color: #BBDEFB;
   --second-color: #60A5FA;
@@ -25,8 +25,6 @@
   --shadow-light: 0 4px 6px rgba(37, 99, 235, 0.1);
   --shadow-medium: 0 8px 15px rgba(37, 99, 235, 0.12);
   --shadow-heavy: 0 15px 30px rgba(37, 99, 235, 0.15);
-  --transition-standard: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-bounce: all 0.5s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
 [data-theme=watermelon] {
   color-scheme: light dark;
@@ -37,7 +35,7 @@
   font-family: var(--font-primary);
   font-size: 15px;
   line-height: 1.7;
-  background: linear-gradient(-145deg, var(--neutral-100), var(--neutral-200));
+  background: linear-gradient(145deg, var(--neutral-100), var(--neutral-200));
   color: var(--text-primary);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -54,7 +52,7 @@
   content: "";
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
   width: 100%;
   height: 2px;
   background-color: var(--accent-color);
@@ -65,9 +63,8 @@
   transform: scaleX(1);
 }
 [data-theme=watermelon] .navbar {
-  background: linear-gradient(-45deg, var(--main-color) 0%, var(--second-color) 25%, var(--third-color) 50%, var(--accent-color) 75%, var(--main-color) 100%);
+  background: linear-gradient(45deg, var(--main-color) 0%, var(--second-color) 25%, var(--third-color) 50%, var(--accent-color) 75%, var(--main-color) 100%);
   background-size: 200% 200%;
-  animation: gradientFlow 15s ease infinite;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -76,13 +73,13 @@
 }
 @keyframes gradientFlow {
   0% {
-    background-position: 100% 50%;
-  }
-  50% {
     background-position: 0% 50%;
   }
-  100% {
+  50% {
     background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 [data-theme=watermelon] .navbar-nav > li > a {
@@ -96,7 +93,7 @@
   content: "";
   position: absolute;
   bottom: -2px;
-  right: 0;
+  left: 0;
   width: 100%;
   height: 2px;
   background-color: var(--accent-color);
@@ -116,18 +113,19 @@
   transition: var(--transition-standard);
   margin: 0.5rem 0;
   padding: 0.75rem 1rem;
+  position: relative;
 }
 [data-theme=watermelon] .standard-sidebar-item.selected {
-  background: linear-gradient(-135deg, var(--main-color), var(--third-color));
+  background: linear-gradient(135deg, var(--main-color), var(--third-color));
   color: white;
   box-shadow: var(--shadow-medium);
 }
 [data-theme=watermelon] .standard-sidebar-item:hover {
-  transform: translateX(-8px) scale(1.02);
+  transform: translateX(8px) scale(1.02);
   box-shadow: var(--shadow-light);
 }
 [data-theme=watermelon] .btn-primary {
-  background: linear-gradient(-135deg, var(--main-color), var(--third-color));
+  background: linear-gradient(135deg, var(--main-color), var(--third-color));
   color: white;
   font-weight: 600;
   border-radius: 12px;
@@ -142,10 +140,48 @@
   box-shadow: var(--shadow-medium), 0 0 0 4px rgba(37, 99, 235, 0.15);
 }
 [data-theme=watermelon] .btn-primary:active {
-  transform: translateY(1px) scale(0.98);
+  transform: translateY(10px) scale(0.98);
+}
+[data-theme=watermelon] .dropdown-list {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-medium);
+  z-index: 10;
+  min-width: 150px;
+  padding: 0.5rem 0;
+  transform: translateY(-8px);
+}
+[data-theme=watermelon] .dropdown-list.show {
+  display: block;
 }
 [data-theme=watermelon] input,
-[data-theme=watermelon] select,
+[data-theme=watermelon] select {
+  border: 2px solid var(--neutral-300);
+  border-radius: 12px;
+  padding: 5px 8px;
+  background: var(--glass-bg);
+  transition: var(--transition-standard);
+  width: 100%;
+  color: var(--text-primary);
+  box-sizing: border-box;
+  line-height: 1.5;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 30px;
+}
+[data-theme=watermelon] select:focus {
+  border-color: var(--main-color);
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+  transform: translateY(-1px);
+  outline: none;
+}
 [data-theme=watermelon] textarea {
   border: 2px solid var(--neutral-300);
   border-radius: 12px;
@@ -209,7 +245,7 @@
   cursor: pointer;
   position: relative;
   transition: var(--transition-standard);
-  margin-left: 6px;
+  margin-right: 6px;
 }
 [data-theme=watermelon] input[type=checkbox]:hover {
   border-color: var(--main-color);
@@ -217,15 +253,15 @@
   transform: scale(1.1);
 }
 [data-theme=watermelon] input[type=checkbox]:checked {
-  background: linear-gradient(-135deg, var(--main-color), var(--third-color));
+  background: linear-gradient(135deg, var(--main-color), var(--third-color));
   border-color: transparent;
 }
 [data-theme=watermelon] input[type=checkbox]:checked::before {
   content: "\2713";
   position: absolute;
   top: 50%;
-  right: 50%;
-  transform: translate(50%, -50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
   font-size: 10px;
   font-weight: bold;
@@ -272,7 +308,7 @@
     --glass-border: rgba(55, 65, 81, 0.65);
   }
   [data-theme=watermelon] body {
-    background: linear-gradient(-145deg, #111827, #1F2937);
+    background: linear-gradient(145deg, #111827, #1F2937);
   }
 }
-/*# sourceMappingURL=watermelon.bundle.4UUOXWV6.css.map */
+/*# sourceMappingURL=watermelon.bundle.UQ4UIGLK.css.map */

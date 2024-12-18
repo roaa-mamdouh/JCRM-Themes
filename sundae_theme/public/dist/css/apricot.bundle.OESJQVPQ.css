@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-137647-9L4oXjSzNlF8/sundae_theme/sundae_theme/public/css/apricot.bundle.css */
+/* ../../../../../tmp/tmp-217800-XHGfQIQRDdNi/sundae_theme/sundae_theme/public/css/apricot.bundle.css */
 [data-theme=apricot] *::-webkit-scrollbar {
   width: 6px;
 }
@@ -123,14 +123,14 @@
   font-style: normal;
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
-  margin-left: .3em;
+  margin-right: .3em;
   display: inline-block;
   font-size: 24px;
   transition: 0.2s;
   position: relative;
   top: 3px;
   content: "\f105";
-  margin-left: 10px;
+  margin-right: 10px;
   color: var(--white-color);
 }
 [data-theme=apricot] #navbar-breadcrumbs a {
@@ -199,7 +199,7 @@
   border-bottom: 1px solid var(--primary-color);
 }
 [data-theme=apricot] .grid-row > .row .col {
-  border-left: 1px solid #d1d8dd;
+  border-right: 1px solid #d1d8dd;
 }
 [data-theme=apricot] .form-grid .grid-row:hover {
   background: rgba(255, 152, 0, 0.15);
@@ -220,4 +220,4 @@
 [data-theme=apricot] .datatable .dt-header .dt-cell--header .dt-cell__content {
   background-color: #f4f4f4;
 }
-/*# sourceMappingURL=apricot.bundle.24CCHLTR.css.map */
+/*# sourceMappingURL=apricot.bundle.OESJQVPQ.css.map */
