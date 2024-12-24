@@ -6,7 +6,7 @@
   --widget-bg: #ffffff; /* Light Gray */
   --text-color: #000000; /* Text Deep Blue */
   --border-radius: 10px;
-  --hover-effect: rgba(26, 188, 156, 0.3);
+  --hover-effect: rgb(115 143 202);
 }
 
 /* Theme Configuration */
@@ -22,7 +22,7 @@
 [data-theme="watermelon"] body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  background: linear-gradient(135deg, #f3e5f5, #e8f5e9);
+  background: linear-gradient(135deg, #d0dbf4,#6c85ac);
   color: var(--text-color);
   line-height: 1.7;
   margin: 0;
@@ -158,8 +158,9 @@
   background: var(--third-color);
 }
 
-[data-theme="watermelon"] .widget-spacer {
-  box-shadow: none;
+[data-theme=watermelon] .widget.spacer {
+    box-shadow: none;
+    border: none;
 }
 
 /* Dropdowns */

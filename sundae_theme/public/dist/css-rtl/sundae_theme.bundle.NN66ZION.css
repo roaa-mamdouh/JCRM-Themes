@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-7461-sBZPLnUmuMmA/193e014e8ab184/cotton_candy.bundle.css */
+/* ../../../../../tmp/tmp-5491-MAbwN38zyIOk/193f86287da2b/cotton_candy.bundle.css */
 [data-theme=cotton_candy] {
   --gray-50: #E8F5FE;
   --gray-100: #D0E7FA;
@@ -162,7 +162,7 @@
   --indicator-dot-cyan: var(--bg-cyan);
 }
 
-/* ../../../../../tmp/tmp-7461-sBZPLnUmuMmA/193e014f0fc18e/cherry.bundle.css */
+/* ../../../../../tmp/tmp-5491-MAbwN38zyIOk/193f86288a531/cherry.bundle.css */
 [data-theme=cherry] {
   --pink-50: #fff1f2;
   --pink-100: #ffe4e6;
@@ -341,7 +341,7 @@
   color: var(--pink-800);
 }
 
-/* ../../../../../tmp/tmp-7461-sBZPLnUmuMmA/193e014f15c192/apricot.bundle.css */
+/* ../../../../../tmp/tmp-5491-MAbwN38zyIOk/193f86288c534/apricot.bundle.css */
 [data-theme=apricot] *::-webkit-scrollbar {
   width: 6px;
 }
@@ -564,7 +564,7 @@
   background-color: #f4f4f4;
 }
 
-/* ../../../../../tmp/tmp-7461-sBZPLnUmuMmA/193e014f174197/watermelon.bundle.css */
+/* ../../../../../tmp/tmp-5491-MAbwN38zyIOk/193f86288e338/watermelon.bundle.css */
 :root {
   --main-color: #c1defd;
   --second-color: #4f6bb3;
@@ -572,7 +572,7 @@
   --widget-bg: #ffffff;
   --text-color: #000000;
   --border-radius: 10px;
-  --hover-effect: rgba(26, 188, 156, 0.3);
+  --hover-effect: rgb(115 143 202);
 }
 [data-theme=watermelon] {
   --primary: var(--main-color);
@@ -584,7 +584,7 @@
 [data-theme=watermelon] body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  background: linear-gradient(135deg, #f3e5f5, #e8f5e9);
+  background: linear-gradient(135deg, #d0dbf4, #6c85ac);
   color: var(--text-color);
   line-height: 1.7;
   margin: 0;
@@ -696,8 +696,9 @@ h6.uppercase {
   color: #fff;
   background: var(--third-color);
 }
-[data-theme=watermelon] .widget-spacer {
+[data-theme=watermelon] .widget.spacer {
   box-shadow: none;
+  border: none;
 }
 [data-theme=watermelon] .dropdown-menu > li > a {
   font-size: 0.9rem;
@@ -831,9 +832,9 @@ h6.uppercase {
   background: var(--widget-bg);
 }
 
-/* ../../../../../tmp/tmp-7461-sBZPLnUmuMmA/sundae_theme/sundae_theme/public/css/sundae_theme.bundle.css */
+/* ../../../../../tmp/tmp-5491-MAbwN38zyIOk/sundae_theme/sundae_theme/public/css/sundae_theme.bundle.css */
 .app-logo {
   min-height: 55px !important;
   width: auto !important;
 }
-/*# sourceMappingURL=sundae_theme.bundle.XH7VDUBU.css.map */
+/*# sourceMappingURL=sundae_theme.bundle.NN66ZION.css.map */

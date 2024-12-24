@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-7461-QicCnWdtCuXj/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
+/* ../../../../../tmp/tmp-5491-MAbwN38zyIOk/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
 :root {
   --main-color: #c1defd;
   --second-color: #4f6bb3;
@@ -6,7 +6,7 @@
   --widget-bg: #ffffff;
   --text-color: #000000;
   --border-radius: 10px;
-  --hover-effect: rgba(26, 188, 156, 0.3);
+  --hover-effect: rgb(115 143 202);
 }
 [data-theme=watermelon] {
   --primary: var(--main-color);
@@ -18,7 +18,7 @@
 [data-theme=watermelon] body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  background: linear-gradient(135deg, #f3e5f5, #e8f5e9);
+  background: linear-gradient(-135deg, #d0dbf4, #6c85ac);
   color: var(--text-color);
   line-height: 1.7;
   margin: 0;
@@ -63,7 +63,7 @@ h6.uppercase {
   letter-spacing: 0.5px;
 }
 [data-theme=watermelon] .navbar {
-  background: linear-gradient(to right, var(--main-color), var(--second-color));
+  background: linear-gradient(to left, var(--main-color), var(--second-color));
   padding: 15px 20px;
   border-radius: var(--border-radius);
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
@@ -91,7 +91,7 @@ h6.uppercase {
   transition: background-color 0.3s, color 0.3s;
 }
 [data-theme=watermelon] .standard-sidebar-item.selected {
-  background: linear-gradient(to right, var(--main-color), var(--second-color));
+  background: linear-gradient(to left, var(--main-color), var(--second-color));
   color: #fff;
 }
 [data-theme=watermelon] .standard-sidebar-item.selected a,
@@ -130,8 +130,9 @@ h6.uppercase {
   color: #fff;
   background: var(--third-color);
 }
-[data-theme=watermelon] .widget-spacer {
+[data-theme=watermelon] .widget.spacer {
   box-shadow: none;
+  border: none;
 }
 [data-theme=watermelon] .dropdown-menu > li > a {
   font-size: 0.9rem;
@@ -139,14 +140,14 @@ h6.uppercase {
   transition: color 0.3s, background-color 0.3s;
 }
 [data-theme=watermelon] .dropdown-menu > li:hover {
-  background: linear-gradient(to right, var(--main-color), var(--second-color));
+  background: linear-gradient(to left, var(--main-color), var(--second-color));
   color: #fff;
 }
 [data-theme=watermelon] .awesomplete > ul > li[aria-selected=true] {
   background-color: transparent;
 }
 [data-theme=watermelon] .awesomplete > ul > li:hover {
-  background: linear-gradient(to right, var(--main-color), var(--second-color));
+  background: linear-gradient(to left, var(--main-color), var(--second-color));
 }
 [data-theme=watermelon] .awesomplete > ul > li:hover a {
   color: #fff;
@@ -264,4 +265,4 @@ h6.uppercase {
 [data-theme=watermelon] #page-Workspaces .page-head {
   background: var(--widget-bg);
 }
-/*# sourceMappingURL=watermelon.bundle.MKRY3H2J.css.map */
+/*# sourceMappingURL=watermelon.bundle.IUIANAT3.css.map */
