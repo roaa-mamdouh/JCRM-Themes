@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-12717-c1pgme2yJCG4/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
+/* ../../../../../tmp/tmp-12717-rWrKGgpjFMA6/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
 :root {
   --main-color: #AF8E4D;
   --second-color: #B09F70;
@@ -18,7 +18,7 @@
 [data-theme=watermelon] body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  background: linear-gradient(-135deg, #fff5d9, #d5d2cb);
+  background: linear-gradient(135deg, #fff5d9, #d5d2cb);
   color: var(--text-color);
   line-height: 1.7;
   margin: 0;
@@ -63,7 +63,7 @@ h6.uppercase {
   letter-spacing: 0.5px;
 }
 [data-theme=watermelon] .navbar {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
   padding: 15px 20px;
   border-radius: var(--border-radius);
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
@@ -91,7 +91,7 @@ h6.uppercase {
   transition: background-color 0.3s, color 0.3s;
 }
 [data-theme=watermelon] .standard-sidebar-item.selected {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
   color: #fff;
 }
 [data-theme=watermelon] .standard-sidebar-item.selected a,
@@ -143,14 +143,14 @@ h6.uppercase {
   transition: color 0.3s, background-color 0.3s;
 }
 [data-theme=watermelon] .dropdown-menu > li:hover {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
   color: #fff;
 }
 [data-theme=watermelon] .awesomplete > ul > li[aria-selected=true] {
   background-color: transparent;
 }
 [data-theme=watermelon] .awesomplete > ul > li:hover {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
 }
 [data-theme=watermelon] .awesomplete > ul > li:hover a {
   color: #fff;
@@ -227,8 +227,11 @@ h6.uppercase {
 [data-theme=watermelon] input[type=checkbox]:checked:before {
   color: var(--third-color);
 }
+[data-theme=watermelon] input[type=checkbox] {
+  background-color: #ffffff;
+}
 [data-theme=watermelon] input[type=checkbox]:checked {
-  background: var(--main-color);
+  background: var(--third-color);
 }
 [data-theme=watermelon] .frappe-control .ql-editor:not(.read-mode) {
   background: var(--widget-bg);
@@ -302,4 +305,27 @@ h6.uppercase {
 [data-theme=watermelon] .indicator-pill-round.green {
   color: #ffffff;
 }
-/*# sourceMappingURL=watermelon.bundle.CZEP2C6L.css.map */
+.control-data[data-v-44154705] {
+  background-color: #AF8E4D;
+  height: calc(100vh - 202px);
+  overflow-y: auto;
+  padding: 8px;
+}
+[data-theme=watermelon] .std-form-layout > .form-layout > .form-page {
+  border-radius: var(--border-radius-md);
+  border: 1px solid var(--border-color);
+  box-shadow: none;
+  background-color: var(--main-color);
+}
+[data-theme=watermelon] .control-label,
+.grid-heading-row {
+  color: #000000;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-regular);
+  letter-spacing: 0.02em;
+}
+[data-theme=watermelon] label.control-label.reqd {
+  color: black;
+  font-weight: bold;
+}
+/*# sourceMappingURL=watermelon.bundle.YU5ODTZZ.css.map */
