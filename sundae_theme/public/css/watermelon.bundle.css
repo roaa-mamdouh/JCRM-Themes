@@ -402,7 +402,8 @@
 }
 
 [data-theme=watermelon] .list-row-col.ellipsis.hidden-xs {
-    color: white;
+    color: #9cc4ff;
+    font-weight: bold;
 }
 
 [data-theme=watermelon] p.help-box.small.text-muted {
