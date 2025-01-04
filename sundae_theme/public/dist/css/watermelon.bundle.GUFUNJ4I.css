@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-4615-F5lRvO5vWQZA/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
+/* ../../../../../tmp/tmp-4615-fThtAj9ULKMp/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
 :root {
   --main-color: #3E5879;
   --second-color: #213555;
@@ -19,7 +19,7 @@
 [data-theme=watermelon] body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  background: linear-gradient(-135deg, #d1dcef, #63799d);
+  background: linear-gradient(135deg, #d1dcef, #63799d);
   color: var(--text-color);
   line-height: 1.7;
   margin: 0;
@@ -93,7 +93,7 @@ h6.uppercase {
   transition: background-color 0.3s, color 0.3s;
 }
 [data-theme=watermelon] .standard-sidebar-item.selected {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
   color: #fff;
 }
 [data-theme=watermelon] .standard-sidebar-item.selected a,
@@ -145,14 +145,14 @@ h6.uppercase {
   transition: color 0.3s, background-color 0.3s;
 }
 [data-theme=watermelon] .dropdown-menu > li:hover {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
   color: #fff;
 }
 [data-theme=watermelon] .awesomplete > ul > li[aria-selected=true] {
   background-color: transparent;
 }
 [data-theme=watermelon] .awesomplete > ul > li:hover {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
 }
 [data-theme=watermelon] .awesomplete > ul > li:hover a {
   color: #fff;
@@ -438,4 +438,9 @@ h6.uppercase {
 [data-theme=watermelon] .form-in-grid {
   background-color: var(--main-color);
 }
-/*# sourceMappingURL=watermelon.bundle.CFLJJYRS.css.map */
+[data-theme=watermelon] .indicator-pill.green,
+.indicator-pill-right.green,
+.indicator-pill-round.green {
+  background: #00c9d5;
+}
+/*# sourceMappingURL=watermelon.bundle.GUFUNJ4I.css.map */

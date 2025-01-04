@@ -512,3 +512,7 @@
 [data-theme=watermelon] .form-in-grid {
     background-color: var(--main-color);
 }
+
+[data-theme=watermelon] .indicator-pill.green, .indicator-pill-right.green, .indicator-pill-round.green {
+    background: #00c9d5;
+}
