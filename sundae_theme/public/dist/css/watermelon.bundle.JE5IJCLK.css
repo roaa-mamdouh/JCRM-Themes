@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-6898-GsZwzmFreWzH/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
+/* ../../../../../tmp/tmp-4615-fThtAj9ULKMp/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
 :root {
   --main-color: #3E5879;
   --second-color: #213555;
@@ -345,7 +345,8 @@ h6.uppercase {
   color: white;
 }
 [data-theme=watermelon] .list-row-col.ellipsis.hidden-xs {
-  color: white;
+  color: #9cc4ff;
+  font-weight: bold;
 }
 [data-theme=watermelon] p.help-box.small.text-muted {
   color: white;
@@ -418,4 +419,23 @@ h6.uppercase {
 [data-theme=watermelon] .properties {
   background-color: var(--main-color);
 }
-/*# sourceMappingURL=watermelon.bundle.KMHXTNXE.css.map */
+[data-theme=watermelon] .fc-view-container *,
+.fc-view-container :after,
+.fc-view-container :before {
+  color: black;
+  background-color: lightsteelblue;
+}
+[data-theme=watermelon] a.btn.btn-default.btn-sm.list-sidebar-button {
+  background-color: #64799b;
+}
+[data-theme=watermelon] .layout-side-section .sidebar-label {
+  color: #28a4d9;
+}
+[data-theme=watermelon] .gantt .grid-header {
+  fill: #e1e8f7;
+  stroke: black;
+}
+[data-theme=watermelon] .form-in-grid {
+  background-color: var(--main-color);
+}
+/*# sourceMappingURL=watermelon.bundle.JE5IJCLK.css.map */
