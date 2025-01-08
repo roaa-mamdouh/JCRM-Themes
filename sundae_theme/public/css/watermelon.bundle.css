@@ -81,15 +81,17 @@
   padding: 15px 20px;
   border-radius: var(--border-radius);
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+  height: 70px; /* Adjust the height as needed */
 }
 
 [data-theme="watermelon"] .navbar-nav>li>a {
   color: #fff !important;
   padding: 12px 18px;
-  font-size: 1rem;
+  line-height: 50px; /* Match the height of the navbar */
   border-radius: var(--border-radius);
   transition: background-color 0.3s, transform 0.3s;
 }
+
 
 [data-theme="watermelon"] .navbar-nav>li>a:hover {
   background-color: var(--hover-effect);
@@ -515,4 +517,8 @@
 
 [data-theme=watermelon] .indicator-pill.green, .indicator-pill-right.green, .indicator-pill-round.green {
     background: #00c9d5;
+}
+
+[data-theme=watermelon] .modal-body.ui-front {
+  color: white;
 }

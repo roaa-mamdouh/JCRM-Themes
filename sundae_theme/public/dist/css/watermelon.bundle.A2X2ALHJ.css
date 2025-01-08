@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-4615-F5lRvO5vWQZA/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
+/* ../../../../../tmp/tmp-26946-AWQtZm6VBlZL/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
 :root {
   --main-color: #3E5879;
   --second-color: #213555;
@@ -19,7 +19,7 @@
 [data-theme=watermelon] body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  background: linear-gradient(-135deg, #d1dcef, #63799d);
+  background: linear-gradient(135deg, #d1dcef, #63799d);
   color: var(--text-color);
   line-height: 1.7;
   margin: 0;
@@ -69,11 +69,12 @@ h6.uppercase {
   padding: 15px 20px;
   border-radius: var(--border-radius);
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+  height: 70px;
 }
 [data-theme=watermelon] .navbar-nav > li > a {
   color: #fff !important;
   padding: 12px 18px;
-  font-size: 1rem;
+  line-height: 50px;
   border-radius: var(--border-radius);
   transition: background-color 0.3s, transform 0.3s;
 }
@@ -93,7 +94,7 @@ h6.uppercase {
   transition: background-color 0.3s, color 0.3s;
 }
 [data-theme=watermelon] .standard-sidebar-item.selected {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
   color: #fff;
 }
 [data-theme=watermelon] .standard-sidebar-item.selected a,
@@ -145,14 +146,14 @@ h6.uppercase {
   transition: color 0.3s, background-color 0.3s;
 }
 [data-theme=watermelon] .dropdown-menu > li:hover {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
   color: #fff;
 }
 [data-theme=watermelon] .awesomplete > ul > li[aria-selected=true] {
   background-color: transparent;
 }
 [data-theme=watermelon] .awesomplete > ul > li:hover {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
 }
 [data-theme=watermelon] .awesomplete > ul > li:hover a {
   color: #fff;
@@ -443,4 +444,7 @@ h6.uppercase {
 .indicator-pill-round.green {
   background: #00c9d5;
 }
-/*# sourceMappingURL=watermelon.bundle.V4RL45NX.css.map */
+[data-theme=watermelon] .modal-body.ui-front {
+  color: white;
+}
+/*# sourceMappingURL=watermelon.bundle.A2X2ALHJ.css.map */

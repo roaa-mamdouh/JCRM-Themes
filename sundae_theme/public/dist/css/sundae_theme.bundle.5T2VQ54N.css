@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-4615-fThtAj9ULKMp/194326cdc2dc9/cotton_candy.bundle.css */
+/* ../../../../../tmp/tmp-26946-AWQtZm6VBlZL/19445e2bfb944/cotton_candy.bundle.css */
 [data-theme=cotton_candy] {
   --gray-50: #E8F5FE;
   --gray-100: #D0E7FA;
@@ -162,7 +162,7 @@
   --indicator-dot-cyan: var(--bg-cyan);
 }
 
-/* ../../../../../tmp/tmp-4615-fThtAj9ULKMp/194326cdc8bd0/cherry.bundle.css */
+/* ../../../../../tmp/tmp-26946-AWQtZm6VBlZL/19445e2c0b94c/cherry.bundle.css */
 [data-theme=cherry] {
   --pink-50: #fff1f2;
   --pink-100: #ffe4e6;
@@ -341,7 +341,7 @@
   color: var(--pink-800);
 }
 
-/* ../../../../../tmp/tmp-4615-fThtAj9ULKMp/194326cdcdbd5/apricot.bundle.css */
+/* ../../../../../tmp/tmp-26946-AWQtZm6VBlZL/19445e2c0de53/apricot.bundle.css */
 [data-theme=apricot] *::-webkit-scrollbar {
   width: 6px;
 }
@@ -564,7 +564,7 @@
   background-color: #f4f4f4;
 }
 
-/* ../../../../../tmp/tmp-4615-fThtAj9ULKMp/194326cdd1ed9/watermelon.bundle.css */
+/* ../../../../../tmp/tmp-26946-AWQtZm6VBlZL/19445e2c0f257/watermelon.bundle.css */
 :root {
   --main-color: #3E5879;
   --second-color: #213555;
@@ -635,11 +635,12 @@ h6.uppercase {
   padding: 15px 20px;
   border-radius: var(--border-radius);
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+  height: 70px;
 }
 [data-theme=watermelon] .navbar-nav > li > a {
   color: #fff !important;
   padding: 12px 18px;
-  font-size: 1rem;
+  line-height: 50px;
   border-radius: var(--border-radius);
   transition: background-color 0.3s, transform 0.3s;
 }
@@ -1009,10 +1010,13 @@ h6.uppercase {
 .indicator-pill-round.green {
   background: #00c9d5;
 }
+[data-theme=watermelon] .modal-body.ui-front {
+  color: white;
+}
 
-/* ../../../../../tmp/tmp-4615-fThtAj9ULKMp/sundae_theme/sundae_theme/public/css/sundae_theme.bundle.css */
+/* ../../../../../tmp/tmp-26946-AWQtZm6VBlZL/sundae_theme/sundae_theme/public/css/sundae_theme.bundle.css */
 .app-logo {
   min-height: 55px !important;
   width: auto !important;
 }
-/*# sourceMappingURL=sundae_theme.bundle.ZJLN3B5P.css.map */
+/*# sourceMappingURL=sundae_theme.bundle.5T2VQ54N.css.map */
