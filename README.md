@@ -1,18 +1,12 @@
-
 ## JCRM Theme
 
-The Frappe Theme is a vibrant and refreshing custom theme designed for CRM Frappe-based System. It enhances the user interface with a visually appealing color scheme, providing a delightful user experience across all modules.
-
-
+JCRM Theme is a vibrant and refreshing custom theme designed for CRM Frappe-based System. It enhances the user interface with a visually appealing color scheme, providing a delightful user experience across all modules.
 
 ![Screenshot](./Screenshot3.png)
 
 ![Screenshot](./Screenshot2.png)
 
 ![Screenshot](./Screenshot1.png)
-
-
-
 
 ### Key Features
 
@@ -24,12 +18,14 @@ The Frappe Theme is a vibrant and refreshing custom theme designed for CRM Frapp
 
 ### Installation
 
-To install the Watermelon Theme, follow these steps:
+To install the JCRM Theme, follow these steps:
 
-1. 
-```bash
-   Bench get-app https://github.com/roaa-mamdouh/JCRM-Themes.git
+1. Clone the repository:
+    ```bash
+    bench get-app https://github.com/roaa-mamdouh/JCRM-Themes.git
+    ```
 
-2.
-```bash
-   Bench --site [sitename] install-app https://github.com/roaa-mamdouh/JCRM-Themes.git
+2. Install the app on your site:
+    ```bash
+    bench --site [sitename] install-app JCRM-Themes
+    ```
