@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-26946-AWQtZm6VBlZL/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
+/* ../../../../../tmp/tmp-87641-6BKpx3cAYtf1/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
 :root {
   --main-color: #3E5879;
   --second-color: #213555;
@@ -447,4 +447,7 @@ h6.uppercase {
 [data-theme=watermelon] .modal-body.ui-front {
   color: white;
 }
-/*# sourceMappingURL=watermelon.bundle.A2X2ALHJ.css.map */
+[data-theme=watermelon] .navbar-home img {
+  max-height: 70px;
+}
+/*# sourceMappingURL=watermelon.bundle.FFJ5EZDA.css.map */

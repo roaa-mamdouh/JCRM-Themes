@@ -522,3 +522,9 @@
 [data-theme=watermelon] .modal-body.ui-front {
   color: white;
 }
+
+
+[data-theme="watermelon"] .navbar-home img {
+  max-height: 70px;
+}
+
