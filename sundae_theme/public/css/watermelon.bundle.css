@@ -528,3 +528,10 @@
   max-height: 70px;
 }
 
+[data-theme=watermelon] a:hover {
+  color: black;
+}
+
+[data-theme=watermelon] button.btn-reset.nav-link {
+  color: white;
+}
