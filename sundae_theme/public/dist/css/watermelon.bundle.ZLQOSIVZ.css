@@ -456,4 +456,8 @@ h6.uppercase {
 [data-theme=watermelon] button.btn-reset.nav-link {
   color: white;
 }
-/*# sourceMappingURL=watermelon.bundle.JAG5GV6H.css.map */
+[data-theme=watermelon] element.style {
+  background-color: no;
+  color: var(--blue-avatar-color);
+}
+/*# sourceMappingURL=watermelon.bundle.ZLQOSIVZ.css.map */
