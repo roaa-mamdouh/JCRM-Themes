@@ -536,7 +536,7 @@
   color: white;
 }
 
-[data-theme=watermelon] element.style {
+element.style {
   background-color: initial;
   color: var(--blue-avatar-color);
 }
