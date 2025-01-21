@@ -525,7 +525,7 @@
 
 
 [data-theme="watermelon"] .navbar-home img {
-  max-height: 70px;
+  max-height: 65px;
 }
 
 [data-theme=watermelon] a:hover {
@@ -537,6 +537,6 @@
 }
 
 [data-theme=watermelon] element.style {
-  background-color: no;
+  background-color: initial;
   color: var(--blue-avatar-color);
 }

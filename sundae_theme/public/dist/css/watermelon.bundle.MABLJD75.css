@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-16777-FCFEFGP6S2Qy/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
+/* ../../../../../tmp/tmp-16777-Dulcsk7hbJD3/sundae_theme/sundae_theme/public/css/watermelon.bundle.css */
 :root {
   --main-color: #3E5879;
   --second-color: #213555;
@@ -19,7 +19,7 @@
 [data-theme=watermelon] body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  background: linear-gradient(-135deg, #d1dcef, #63799d);
+  background: linear-gradient(135deg, #d1dcef, #63799d);
   color: var(--text-color);
   line-height: 1.7;
   margin: 0;
@@ -94,7 +94,7 @@ h6.uppercase {
   transition: background-color 0.3s, color 0.3s;
 }
 [data-theme=watermelon] .standard-sidebar-item.selected {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
   color: #fff;
 }
 [data-theme=watermelon] .standard-sidebar-item.selected a,
@@ -146,14 +146,14 @@ h6.uppercase {
   transition: color 0.3s, background-color 0.3s;
 }
 [data-theme=watermelon] .dropdown-menu > li:hover {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
   color: #fff;
 }
 [data-theme=watermelon] .awesomplete > ul > li[aria-selected=true] {
   background-color: transparent;
 }
 [data-theme=watermelon] .awesomplete > ul > li:hover {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
 }
 [data-theme=watermelon] .awesomplete > ul > li:hover a {
   color: #fff;
@@ -448,7 +448,7 @@ h6.uppercase {
   color: white;
 }
 [data-theme=watermelon] .navbar-home img {
-  max-height: 70px;
+  max-height: 65px;
 }
 [data-theme=watermelon] a:hover {
   color: black;
@@ -457,7 +457,7 @@ h6.uppercase {
   color: white;
 }
 [data-theme=watermelon] element.style {
-  background-color: no;
+  background-color: initial;
   color: var(--blue-avatar-color);
 }
-/*# sourceMappingURL=watermelon.bundle.PJX2RTM5.css.map */
+/*# sourceMappingURL=watermelon.bundle.MABLJD75.css.map */
